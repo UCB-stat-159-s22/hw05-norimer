@@ -1,16 +1,15 @@
-name: ligo 
-dependencies: 
-	- decorator=4.4 
-	- h5py=2.10 
-	- IPython=5.8
-	- ipykernel=4.8
-	- json=2.0
-	- matplotlib=2.2
-	- numpy=1.16
-	- python=2.7
-	- scipy=1.2
-	
-
 ## python 2.7 & decorator specified in prompt
 ## numpy, scipy, h5py, json, matplotlib, IPython specified in code chunks 2, 16, and 17. 
 ## ipykernel displayed in mamba list command (after switching the conda environment to kernel)
+
+name: ligo 
+dependencies: 
+  - decorator=4.4
+  - h5py=2.10
+  - IPython=5.8
+  - ipykernel=4.8
+  - json=2.0
+  - matplotlib=2.2
+  - numpy=1.16
+  - python=2.7
+  - scipy=1.2
